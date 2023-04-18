@@ -14,7 +14,7 @@
   "scripts": {
     "validate": "renovate-config-validator",
     "test": "npm run validate",
-    "release": "standard-version && git push --follow-tags && npm publish",
+    "release": "standard-version && git push --follow-tags && npm publish --access public",
     "prepare": "npm run test"
   },
   "files": [],
@@ -51,5 +51,11 @@
   "devDependencies": {
     "renovate": "^34.29.0",
     "standard-version": "^9.0.0"
-  }
+  },
+  "main": "index.js",
+  "dependencies": {
+    "conventional-changelog-eslint": "^3.0.9",
+    "prettier": "^2.7.1"
+  },
+  "author": ""
 }
