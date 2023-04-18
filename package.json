@@ -1,6 +1,6 @@
 {
   "name": "@developling-webdevelopment/renovate-config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Developling-webdevelopment presets for Renovate",
   "license": "MIT",
   "homepage": "https://github.com/developling-webdevelopment/renovate-config",
@@ -30,15 +30,20 @@
         "enabled": false
       },
       "rangeStrategy": "bump",
-      "assignees": ["vanling"],
+      "assignees": [
+        "vanling"
+      ],
       "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
       },
-       "packageRules": [
+      "packageRules": [
         {
           "groupName": "vueuse",
           "groupSlug": "vueuse",
-          "matchPackageNames": ["@vueuse/core", "@vueuse/nuxt"]
+          "matchPackageNames": [
+            "@vueuse/core",
+            "@vueuse/nuxt"
+          ]
         }
       ]
     }
