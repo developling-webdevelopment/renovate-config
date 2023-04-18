@@ -1,0 +1,50 @@
+{
+  "name": "@developling-webdevelopment/renovate-config",
+  "version": "0.1.2",
+  "description": "Developling-webdevelopment presets for Renovate",
+  "license": "MIT",
+  "homepage": "https://github.com/developling-webdevelopment/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developling-webdevelopment/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/developling-webdevelopment/renovate-config/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator",
+    "test": "npm run validate",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "prepare": "npm run test"
+  },
+  "files": [],
+  "renovate-config": {
+    "default": {
+      "description": "Default config for Developling-webdevelopment repositories",
+      "extends": [
+        "config:base",
+        "group:allNonMajor",
+        ":semanticCommitTypeAll(chore)"
+      ],
+      "meteor": {
+        "enabled": false
+      },
+      "rangeStrategy": "bump",
+      "assignees": ["vanling"],
+      "npm": {
+        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+      },
+       "packageRules": [
+        {
+          "groupName": "vueuse",
+          "groupSlug": "vueuse",
+          "matchPackageNames": ["@vueuse/core", "@vueuse/nuxt"]
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "renovate": "^34.29.0",
+    "standard-version": "^9.0.0"
+  }
+}
