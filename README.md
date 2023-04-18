@@ -8,7 +8,7 @@ Add this into `renovate.json`:
 
 ```json
 {
-  "extends": ["@developling-webdevelopment"]
+  "extends": ["@developling"]
 }
 ```
 
