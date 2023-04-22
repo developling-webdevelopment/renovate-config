@@ -1,6 +1,6 @@
 {
   "name": "@developling/renovate-config",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Developling-webdevelopment presets for Renovate",
   "license": "MIT",
   "homepage": "https://github.com/developling-webdevelopment/renovate-config",
