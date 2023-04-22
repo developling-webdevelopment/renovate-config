@@ -42,7 +42,8 @@
           "groupSlug": "vueuse",
           "matchPackageNames": [
             "@vueuse/core",
-            "@vueuse/nuxt"
+            "@vueuse/nuxt",
+            "@vueuse/math"
           ]
         }
       ]
