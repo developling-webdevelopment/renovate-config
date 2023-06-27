@@ -50,7 +50,7 @@
     }
   },
   "devDependencies": {
-    "renovate": "^35.143.2",
+    "renovate": "^35.144.0",
     "standard-version": "^9.0.0"
   },
   "main": "index.js",
