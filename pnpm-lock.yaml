@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   renovate:
-    specifier: ^36.3.0
-    version: 36.3.0(typanion@3.12.1)
+    specifier: ^36.5.2
+    version: 36.5.2(typanion@3.12.1)
   standard-version:
     specifier: ^9.0.0
     version: 9.0.0
@@ -131,9 +131,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.0.1
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.0.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -177,9 +177,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.0.1
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.0.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -224,9 +224,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.0.1
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.0.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -270,9 +270,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.0.1
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.0.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -331,9 +331,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.0.1
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.0.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -376,7 +376,7 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.0.1
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
       '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
@@ -417,7 +417,7 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.0.1
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
       '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
@@ -1674,14 +1674,6 @@ packages:
       tslib: 2.6.0
     dev: true
 
-  /@smithy/protocol-http@1.0.1:
-    resolution: {integrity: sha512-9OrEn0WfOVtBNYJUjUAn9AOiJ4lzERCJJ/JeZs8E6yajTGxBaFRxUnNBHiNqoDJVg076hY36UmEnPx7xXrvUSg==}
-    engines: {node: '>=14.0.0'}
-    dependencies:
-      '@smithy/types': 1.0.0
-      tslib: 2.6.0
-    dev: true
-
   /@smithy/protocol-http@1.1.1:
     resolution: {integrity: sha512-mFLFa2sSvlUxm55U7B4YCIsJJIMkA6lHxwwqOaBkral1qxFz97rGffP/mmd4JDuin1EnygiO5eNJGgudiUgmDQ==}
     engines: {node: '>=14.0.0'}
@@ -1741,13 +1733,6 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/types': 1.1.1
       '@smithy/util-stream': 1.0.2
-      tslib: 2.6.0
-    dev: true
-
-  /@smithy/types@1.0.0:
-    resolution: {integrity: sha512-kc1m5wPBHQCTixwuaOh9vnak/iJm21DrSf9UK6yDE5S3mQQ4u11pqAUiKWnlrZnYkeLfAI9UEHj9OaMT1v5Umg==}
-    engines: {node: '>=14.0.0'}
-    dependencies:
       tslib: 2.6.0
     dev: true
 
@@ -5070,8 +5055,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.3.0(typanion@3.12.1):
-    resolution: {integrity: sha512-kFaM+uVghJAADAUbBHkXRHL5iR/2LquhEUF9G6h6R6b3Uq/75fOsSOnpWUr5znY58koBPXNoNRKpUl6cRzUQow==}
+  /renovate@36.5.2(typanion@3.12.1):
+    resolution: {integrity: sha512-ahUJxWtFbgSOTB5Z4bu1hf9PUz8hE/1vJ1hnAy8d3xIYcWhGzioM7rzdDPvQi2sQPgSD/HIvS6hqQrhtUp1Iew==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
