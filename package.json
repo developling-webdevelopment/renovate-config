@@ -50,13 +50,13 @@
     }
   },
   "devDependencies": {
-    "renovate": "^36.23.2",
+    "renovate": "^36.36.1",
     "standard-version": "^9.0.0"
   },
   "main": "index.js",
   "dependencies": {
     "conventional-changelog-eslint": "^4.0.0",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.1"
   },
   "author": ""
 }
