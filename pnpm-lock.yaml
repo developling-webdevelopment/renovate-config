@@ -9,13 +9,13 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0
   prettier:
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.0.2
+    version: 3.0.2
 
 devDependencies:
   renovate:
-    specifier: ^36.44.1
-    version: 36.44.1(typanion@3.12.1)
+    specifier: ^36.46.0
+    version: 36.46.0(typanion@3.12.1)
   standard-version:
     specifier: ^9.0.0
     version: 9.0.0
@@ -2725,7 +2725,7 @@ packages:
     dependencies:
       conventional-commits-filter: 2.0.7
       dateformat: 3.0.3
-      handlebars: 4.7.7
+      handlebars: 4.7.8
       json-stringify-safe: 5.0.1
       lodash: 4.17.21
       meow: 8.1.2
@@ -3521,19 +3521,6 @@ packages:
 
   /grapheme-splitter@1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
-    dev: true
-
-  /handlebars@4.7.7:
-    resolution: {integrity: sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==}
-    engines: {node: '>=0.4.7'}
-    hasBin: true
-    dependencies:
-      minimist: 1.2.8
-      neo-async: 2.6.2
-      source-map: 0.6.1
-      wordwrap: 1.0.0
-    optionalDependencies:
-      uglify-js: 3.17.4
     dev: true
 
   /handlebars@4.7.8:
@@ -4901,8 +4888,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.0.1:
-    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
+  /prettier@3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: false
@@ -5133,8 +5120,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.44.1(typanion@3.12.1):
-    resolution: {integrity: sha512-fsbZZrV9KlSex0nmJ23mAvCPflavg2APrzGri2YNlLe3IOghRM/1nzCNDE6qzMtRAYfHc+HanQjHz1bcw8egHA==}
+  /renovate@36.46.0(typanion@3.12.1):
+    resolution: {integrity: sha512-HanQEh09OMVL8u0c1nOT/8Ywbou+9y90N+iW4x5yaX703/YCSCzLNQvqwxt09aQwOTe+CJa3vaTS/6kjMm2Geg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
