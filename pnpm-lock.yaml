@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   conventional-changelog-eslint:
-    specifier: ^5.0.0
-    version: 5.0.0
+    specifier: ^6.0.0
+    version: 6.0.0
   prettier:
     specifier: ^3.0.3
     version: 3.0.3
@@ -2801,9 +2801,9 @@ packages:
       q: 1.5.1
     dev: true
 
-  /conventional-changelog-eslint@5.0.0:
-    resolution: {integrity: sha512-6JtLWqAQIeJLn/OzUlYmzd9fKeNSWmQVim9kql+v4GrZwLx807kAJl3IJVc3jTYfVKWLxhC3BGUxYiuVEcVjgA==}
-    engines: {node: '>=16'}
+  /conventional-changelog-eslint@6.0.0:
+    resolution: {integrity: sha512-eiUyULWjzq+ybPjXwU6NNRflApDWlPEQEHvI8UAItYW/h22RKkMnOAtfCZxMmrcMO1OKUWtcf2MxKYMWe9zJuw==}
+    engines: {node: '>=18'}
     dev: false
 
   /conventional-changelog-express@2.0.6:
