@@ -50,8 +50,8 @@
     }
   },
   "devDependencies": {
-    "renovate": "^38.106.1",
-    "commit-and-tag-version": "^9.5.0"
+    "renovate": "^38.129.2",
+    "commit-and-tag-version": "^9.6.0"
   },
   "main": "index.js",
   "dependencies": {
