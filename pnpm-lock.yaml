@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^12.5.0
     version: 12.5.0
   renovate:
-    specifier: ^39.62.2
-    version: 39.62.2(@aws-sdk/client-sso-oidc@3.709.0)(typanion@3.12.1)
+    specifier: ^39.62.6
+    version: 39.62.6(@aws-sdk/client-sso-oidc@3.709.0)(typanion@3.12.1)
 
 packages:
 
@@ -33,7 +33,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.696.0
+      '@aws-sdk/types': 3.709.0
       tslib: 2.8.1
     dev: true
 
@@ -41,7 +41,7 @@ packages:
     resolution: {integrity: sha512-+iWb8qaHLYKrNvGRbiYRHSdKRWhto5XlZUEBwDjYNf+ly5SVYG6zEoYIdxvf5R3zyeP16w4PLBn3rH1xc74Rag==}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.696.0
+      '@aws-sdk/types': 3.709.0
       tslib: 2.8.1
     dev: true
 
@@ -50,7 +50,7 @@ packages:
     dependencies:
       '@aws-crypto/supports-web-crypto': 5.2.0
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.696.0
+      '@aws-sdk/types': 3.709.0
       '@aws-sdk/util-locate-window': 3.310.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
@@ -62,7 +62,7 @@ packages:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-crypto/supports-web-crypto': 5.2.0
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.696.0
+      '@aws-sdk/types': 3.709.0
       '@aws-sdk/util-locate-window': 3.310.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
@@ -73,7 +73,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.696.0
+      '@aws-sdk/types': 3.709.0
       tslib: 2.8.1
     dev: true
 
@@ -86,7 +86,7 @@ packages:
   /@aws-crypto/util@5.2.0:
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
     dependencies:
-      '@aws-sdk/types': 3.696.0
+      '@aws-sdk/types': 3.709.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
     dev: true
@@ -4326,8 +4326,8 @@ packages:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
     dev: true
 
-  /graph-data-structure@4.2.0:
-    resolution: {integrity: sha512-DFGyFROTYJAXwLjBPvj6LYihF2zIUDKt6Rzgo18E+FFKtHm7dJnE/bMHVp6fji5IchykUg3ctS9gwS0L5azwDw==}
+  /graph-data-structure@4.3.0:
+    resolution: {integrity: sha512-rj0SZL3BLXHGZ/K6+Mw0PNrPu+x0uvHukr5dN/10u4Z77ROz5D+D66R+a3X9yZqJKVDcg/fN1FM5NfMX18ErAQ==}
     dev: true
 
   /grapheme-splitter@1.0.4:
@@ -6078,8 +6078,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@39.62.2(@aws-sdk/client-sso-oidc@3.709.0)(typanion@3.12.1):
-    resolution: {integrity: sha512-JZlQqJcKOI7ebHfaSTEQmx1f4u/HycDe19UTPvdP7duJ4R/kNbV+jLH4Y2hRqoU3qto+NHpC9HCWDCCrMKi4pw==}
+  /renovate@39.62.6(@aws-sdk/client-sso-oidc@3.709.0)(typanion@3.12.1):
+    resolution: {integrity: sha512-OuT7a8XUf8FJ4H0nmAbKiPP3h0JZRqYORDTSJsisLkYdYd2VgwvwMAbJJBdRzJfB6nHroQJyCtqcEOTeno89Rg==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
     dependencies:
@@ -6145,7 +6145,7 @@ packages:
       good-enough-parser: 1.1.23
       google-auth-library: 9.15.0
       got: 11.8.6
-      graph-data-structure: 4.2.0
+      graph-data-structure: 4.3.0
       handlebars: 4.7.8
       ignore: 6.0.2
       ini: 5.0.0
