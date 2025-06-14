@@ -50,13 +50,13 @@
     }
   },
   "devDependencies": {
-    "renovate": "^40.50.0",
-    "commit-and-tag-version": "^12.5.0"
+    "renovate": "^40.55.1",
+    "commit-and-tag-version": "^12.5.1"
   },
   "main": "index.js",
   "dependencies": {
     "conventional-changelog-eslint": "^6.0.0",
-    "prettier": "^3.4.2"
+    "prettier": "^3.5.3"
   },
   "author": ""
 }

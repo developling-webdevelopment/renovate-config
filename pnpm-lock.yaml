@@ -9,16 +9,16 @@ dependencies:
     specifier: ^6.0.0
     version: 6.0.0
   prettier:
-    specifier: ^3.4.2
-    version: 3.4.2
+    specifier: ^3.5.3
+    version: 3.5.3
 
 devDependencies:
   commit-and-tag-version:
-    specifier: ^12.5.0
-    version: 12.5.0
+    specifier: ^12.5.1
+    version: 12.5.1
   renovate:
-    specifier: ^40.50.0
-    version: 40.50.0(typanion@3.12.1)
+    specifier: ^40.55.1
+    version: 40.55.1(typanion@3.12.1)
 
 packages:
 
@@ -1047,7 +1047,7 @@ packages:
   /@kwsites/file-exists@1.1.1:
     resolution: {integrity: sha512-m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==}
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1555,7 +1555,7 @@ packages:
       fs-extra: 11.3.0
       toml-eslint-parser: 0.10.0
       upath: 2.0.1
-      zod: 3.25.51
+      zod: 3.25.56
     dev: true
 
   /@renovatebot/kbpgp@4.0.1:
@@ -2806,8 +2806,8 @@ packages:
     engines: {node: '>=20'}
     dev: true
 
-  /commit-and-tag-version@12.5.0:
-    resolution: {integrity: sha512-Ll7rkKntH20iEFOPUT4e503Jf3J0J8jSN+aSeHuvNdtv4xmv9kSLSBg2CWsMVihwF3J2WvMHBEUSCKuDNesiTA==}
+  /commit-and-tag-version@12.5.1:
+    resolution: {integrity: sha512-EA+0zGai6pPfpD1/hwuRDGMLZe00V4b1PtIFtZw5ra/PCan3kxOMVTnj/VuMTNgmH6lwbptObxVDYYzWXzndsg==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
@@ -2823,9 +2823,9 @@ packages:
       find-up: 5.0.0
       git-semver-tags: 5.0.1
       jsdom: 25.0.1
-      semver: 7.6.3
+      semver: 7.7.2
       w3c-xmlserializer: 5.0.0
-      yaml: 2.6.0
+      yaml: 2.8.0
       yargs: 17.7.2
     transitivePeerDependencies:
       - bufferutil
@@ -2948,7 +2948,7 @@ packages:
       handlebars: 4.7.8
       json-stringify-safe: 5.0.1
       meow: 8.1.2
-      semver: 7.6.3
+      semver: 7.7.2
       split: 1.0.1
     dev: true
 
@@ -3082,6 +3082,18 @@ packages:
 
   /debug@4.3.7:
     resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.3
+    dev: true
+
+  /debug@4.4.1:
+    resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -3256,7 +3268,7 @@ packages:
     engines: {node: '>=0.10'}
     requiresBuild: true
     dependencies:
-      nan: 2.20.0
+      nan: 2.22.2
     dev: true
     optional: true
 
@@ -3699,7 +3711,7 @@ packages:
     hasBin: true
     dependencies:
       meow: 8.1.2
-      semver: 7.6.3
+      semver: 7.7.2
     dev: true
 
   /git-up@8.1.1:
@@ -4918,12 +4930,6 @@ packages:
     dev: true
     optional: true
 
-  /nan@2.20.0:
-    resolution: {integrity: sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==}
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /nan@2.22.2:
     resolution: {integrity: sha512-DANghxFkS1plDdRsX0X9pm0Z6SJNN6gBdtXfanwoZ8hooC5gosGFSBGRYHUVPz1asKA/kMRqDRdHrluZ61SpBQ==}
     requiresBuild: true
@@ -5039,7 +5045,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.12.0
-      semver: 7.6.3
+      semver: 7.7.2
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -5379,17 +5385,10 @@ packages:
     dev: true
     optional: true
 
-  /prettier@3.4.2:
-    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: false
-
   /prettier@3.5.3:
     resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: true
 
   /proc-log@5.0.0:
     resolution: {integrity: sha512-Azwzvl90HaF0aCz1JrDdXQykFakSSNPaPoiZ9fm5qJIMHioDZEi7OAdRwSm6rSoPtY3Qutnm3L7ogmg3dc+wbQ==}
@@ -5627,8 +5626,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@40.50.0(typanion@3.12.1):
-    resolution: {integrity: sha512-SCtDXVT6ilAqtjDQST4T6Pk8GrD3EvRdHDwvq8v3OJnUyfAglkJGAKBqsr/rUboUczU7tx4MhjbfpWsOfBU/rQ==}
+  /renovate@40.55.1(typanion@3.12.1):
+    resolution: {integrity: sha512-tlXRWiZB4mT6ttrcbUpR8UFQhnaqwFdwzWxZcQS44JZ7fiKIzWx1/ASD+4yTffhcqNfj3I0whYhxera+HH3zsA==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
     dependencies:
@@ -5731,22 +5730,23 @@ packages:
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.5.0
+      sax: 1.4.1
       semver: 7.7.2
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.27.0
+      simple-git: 3.28.0
       slugify: 1.6.6
       source-map-support: 0.5.21
       toml-eslint-parser: 0.10.0
       tslib: 2.8.1
       upath: 2.0.1
       url-join: 5.0.0
-      validate-npm-package-name: 6.0.0
+      validate-npm-package-name: 6.0.1
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
       yaml: 2.8.0
-      zod: 3.25.51
+      zod: 3.25.56
     optionalDependencies:
       better-sqlite3: 11.10.0
       openpgp: 6.1.1
@@ -5874,8 +5874,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /sax@1.2.4:
-    resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
+  /sax@1.4.1:
+    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
     dev: true
 
   /saxes@6.0.0:
@@ -5907,12 +5907,6 @@ packages:
 
   /semver@6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
-    hasBin: true
-    dev: true
-
-  /semver@7.6.3:
-    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
-    engines: {node: '>=10'}
     hasBin: true
     dev: true
 
@@ -5990,12 +5984,12 @@ packages:
     dev: true
     optional: true
 
-  /simple-git@3.27.0:
-    resolution: {integrity: sha512-ivHoFS9Yi9GY49ogc6/YAi3Fl9ROnF4VyubNylgCkA+RVqLaKWnDSzXOVzya8csELIaWaYNutsEuAhZrtOjozA==}
+  /simple-git@3.28.0:
+    resolution: {integrity: sha512-Rs/vQRwsn1ILH1oBUy8NucJlXmnnLeLCfcvbSehkPzbv3wwoFWIdtfd6Ndo6ZPhlPsCZ60CPI4rxurnwAa+a2w==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
-      debug: 4.3.7
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6556,8 +6550,8 @@ packages:
       builtins: 5.1.0
     dev: true
 
-  /validate-npm-package-name@6.0.0:
-    resolution: {integrity: sha512-d7KLgL1LD3U3fgnvWEY1cQXoO/q6EQ1BSz48Sa149V/5zVTAbgmZIpyI8TRi6U9/JNyeYLlTKsEMPtLC27RFUg==}
+  /validate-npm-package-name@6.0.1:
+    resolution: {integrity: sha512-OaI//3H0J7ZkR1OqlhGA8cA+Cbk/2xFOQpJOt5+s27/ta9eZwpeervh4Mxh4w0im/kdgktowaqVNR7QOrUd7Yg==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dev: true
 
@@ -6730,7 +6724,7 @@ packages:
   /xmldoc@1.3.0:
     resolution: {integrity: sha512-y7IRWW6PvEnYQZNZFMRLNJw+p3pezM4nKYPfr15g4OOW9i8VpeydycFuipE2297OvZnh3jSb2pxOt9QpkZUVng==}
     dependencies:
-      sax: 1.2.4
+      sax: 1.4.1
     dev: true
 
   /xtend@4.0.2:
@@ -6750,12 +6744,6 @@ packages:
   /yallist@5.0.0:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
-    dev: true
-
-  /yaml@2.6.0:
-    resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
-    engines: {node: '>= 14'}
-    hasBin: true
     dev: true
 
   /yaml@2.8.0:
@@ -6825,8 +6813,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /zod@3.25.51:
-    resolution: {integrity: sha512-TQSnBldh+XSGL+opiSIq0575wvDPqu09AqWe1F7JhUMKY+M91/aGlK4MhpVNO7MgYfHcVCB1ffwAUTJzllKJqg==}
+  /zod@3.25.56:
+    resolution: {integrity: sha512-rd6eEF3BTNvQnR2e2wwolfTmUTnp70aUTqr0oaGbHifzC3BKJsoV+Gat8vxUMR1hwOKBs6El+qWehrHbCpW6SQ==}
     dev: true
 
   /zwitch@1.0.5:
