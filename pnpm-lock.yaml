@@ -17,7 +17,7 @@ devDependencies:
     specifier: ^12.6.1
     version: 12.6.1
   renovate:
-    specifier: ^43.6.2
+    specifier: ^43.6.3
     version: 43.6.3(typanion@3.12.1)
 
 packages:
@@ -1115,13 +1115,6 @@ packages:
   /@isaacs/balanced-match@4.0.1:
     resolution: {integrity: sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ==}
     engines: {node: 20 || >=22}
-    dev: true
-
-  /@isaacs/brace-expansion@5.0.0:
-    resolution: {integrity: sha512-ZT55BDLV0yv0RBm2czMiZ+SqCGO7AvmOM3G/w2xhVPH+te0aKgFjmBvGlL1dH+ql2tgGO3MVrbb3jCKyvpgnxA==}
-    engines: {node: 20 || >=22}
-    dependencies:
-      '@isaacs/balanced-match': 4.0.1
     dev: true
 
   /@isaacs/brace-expansion@5.0.1:
@@ -5047,7 +5040,7 @@ packages:
     resolution: {integrity: sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==}
     engines: {node: 20 || >=22}
     dependencies:
-      '@isaacs/brace-expansion': 5.0.0
+      '@isaacs/brace-expansion': 5.0.1
     dev: true
 
   /minimatch@10.1.2:
