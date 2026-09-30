@@ -9,16 +9,16 @@ dependencies:
     specifier: ^6.1.0
     version: 6.1.0
   prettier:
-    specifier: ^3.8.4
-    version: 3.8.4
+    specifier: ^3.9.9
+    version: 3.9.9
 
 devDependencies:
   commit-and-tag-version:
     specifier: ^12.7.3
     version: 12.7.3
   renovate:
-    specifier: ^44.115.13
-    version: 44.115.13(typanion@3.12.1)
+    specifier: ^44.124.2
+    version: 44.124.2(typanion@3.12.1)
 
 packages:
 
@@ -544,16 +544,6 @@ packages:
       '@opentelemetry/semantic-conventions': 1.43.0
     dev: true
 
-  /@opentelemetry/core@2.8.0(@opentelemetry/api@1.9.1):
-    resolution: {integrity: sha512-hd1Lfh8p545nNz+jq1Ejfz+Mn1hyLuxYn1YzTfFNrxr8urEWMNQLPf1Th8kjOH+HxwawCrtgBp8JpBUR4ZSgww==}
-    engines: {node: ^18.19.0 || >=20.6.0}
-    peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.10.0'
-    dependencies:
-      '@opentelemetry/api': 1.9.1
-      '@opentelemetry/semantic-conventions': 1.43.0
-    dev: true
-
   /@opentelemetry/exporter-trace-otlp-grpc@0.222.0(@opentelemetry/api@1.9.1):
     resolution: {integrity: sha512-uisilePEdOMa3hIfXW82XXU6FofF8gw3iv+PoboIMWEUBC7XbJB3XnIHSdrSDsqCw3njR/If08qD0yzOY1U9Sg==}
     engines: {node: ^18.19.0 || >=20.6.0}
@@ -699,7 +689,7 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.9.1
-      '@opentelemetry/core': 2.8.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/core': 2.11.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resources': 2.11.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/semantic-conventions': 1.43.0
     dev: true
@@ -711,7 +701,7 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.9.1
-      '@opentelemetry/core': 2.8.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/core': 2.11.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resources': 2.11.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/semantic-conventions': 1.43.0
     dev: true
@@ -723,7 +713,7 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.9.1
-      '@opentelemetry/core': 2.8.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/core': 2.11.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resources': 2.11.0(@opentelemetry/api@1.9.1)
       gcp-metadata: 8.1.2
     transitivePeerDependencies:
@@ -990,11 +980,11 @@ packages:
       cluster-key-slot: 1.1.2
     dev: true
 
-  /@renovatebot/detect-tools@4.0.20:
-    resolution: {integrity: sha512-hPIbS6EyL/Sy9Bcv3nO6szMDNWsdkCtbaZpJN4EtL93CiRp3N+6DJmNkr6wm6UnNuyaI1CpUzFjPeeTp2jMx5A==}
+  /@renovatebot/detect-tools@4.0.21:
+    resolution: {integrity: sha512-1+yfO/pivwJu1m8180pfxHSVlx9ByZVDUa9xcvRLBraAFTn+ziDeOBoKVqpr4lElYwZ6kBNfE945dCVewz6edQ==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
     dependencies:
-      fs-extra: 11.4.0
+      fs-extra: 11.4.1
       toml-eslint-parser: 1.0.3
       upath: 3.0.8
       zod: 4.6.5
@@ -1010,8 +1000,8 @@ packages:
       moo: 0.5.3
     dev: true
 
-  /@renovatebot/osv-offline-db@3.0.11:
-    resolution: {integrity: sha512-JFFrnTJjK/1GWMKilHfjU4GHZ+V9busmzZ+WUxDaQMlySNI1EA3Z3QTXG325noaDQhg0NqqXcPl8fLdrll0Oaw==}
+  /@renovatebot/osv-offline-db@3.0.12:
+    resolution: {integrity: sha512-zucy8DMvzE4JBjmobiAqk1mXnH2X7KwbZ9Q9YRw3RzevqhlBDZ+q5qQ3KLpEM1vaCpdhDUzaeJLxA5zOkNh4ww==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
     dependencies:
       debug: 4.4.3
@@ -1019,14 +1009,14 @@ packages:
       - supports-color
     dev: true
 
-  /@renovatebot/osv-offline@3.0.11:
-    resolution: {integrity: sha512-xnf1rGaPDZR1DePYrKlOyMaHR6Giy+bOlqKut60+SPbf80PajCQd+rK1tdngkO88YM4EM1DJmkAtjHutPLqaCg==}
+  /@renovatebot/osv-offline@3.0.12:
+    resolution: {integrity: sha512-trFb1+hz84jtvvkJpsx/hEIktwDfyVsXIe4bWj7t5dSUHcP5JZmibE8CiR8KY9BXnqQtiig5HTRM5iwzlkQw/Q==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
     dependencies:
-      '@renovatebot/osv-offline-db': 3.0.11
+      '@renovatebot/osv-offline-db': 3.0.12
       adm-zip: 0.6.1
       debug: 4.4.3
-      fs-extra: 11.4.0
+      fs-extra: 11.4.1
       got: 15.1.0
       luxon: 3.7.2
     transitivePeerDependencies:
@@ -1893,7 +1883,7 @@ packages:
       handlebars: 4.7.9
       json-stringify-safe: 5.0.1
       meow: 8.1.2
-      semver: 7.8.4
+      semver: 7.8.5
       split: 1.0.1
     dev: true
 
@@ -2063,9 +2053,9 @@ packages:
     resolution: {integrity: sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==}
     engines: {node: '>= 0.4'}
     dependencies:
-      es-define-property: 1.0.0
+      es-define-property: 1.0.1
       es-errors: 1.3.0
-      gopd: 1.0.1
+      gopd: 1.2.0
     dev: true
 
   /define-properties@1.2.1:
@@ -2176,7 +2166,7 @@ packages:
     engines: {node: '>=0.10'}
     requiresBuild: true
     dependencies:
-      nan: 2.27.0
+      nan: 2.29.0
     dev: true
     optional: true
 
@@ -2255,13 +2245,6 @@ packages:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
     dependencies:
       is-arrayish: 0.2.1
-    dev: true
-
-  /es-define-property@1.0.0:
-    resolution: {integrity: sha512-jxayLKShrEqqzJ0eumQbVhTYQM27CfT1T35+gCgDFoL82JLsXqTJ76zv6A0YLOgEnLUMvLzsDsGIrl8NFpT2gQ==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      get-intrinsic: 1.2.4
     dev: true
 
   /es-define-property@1.0.1:
@@ -2497,8 +2480,8 @@ packages:
       universalify: 2.0.0
     dev: true
 
-  /fs-extra@11.4.0:
-    resolution: {integrity: sha512-EQsFzMUJkCKGr1ePqlYADkIUmHW1s3ZXr5Yqy6wbGrfUCphpl2maM/kyOIRA2HpP3AaFQTZXD4ldjek+nccddA==}
+  /fs-extra@11.4.1:
+    resolution: {integrity: sha512-KYAb4c9BJQI6QqGKthV68OHe0badztdXJWKo0WtBA9IuCFPTKvE5ZdUBglP833aMjhaSPNO4A5j/EkzZtGlKjA==}
     engines: {node: '>=14.14'}
     dependencies:
       graceful-fs: 4.2.11
@@ -2553,17 +2536,6 @@ packages:
   /get-caller-file@2.0.5:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
-    dev: true
-
-  /get-intrinsic@1.2.4:
-    resolution: {integrity: sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      es-errors: 1.3.0
-      function-bind: 1.1.2
-      has-proto: 1.0.3
-      has-symbols: 1.0.3
-      hasown: 2.0.2
     dev: true
 
   /get-intrinsic@1.3.0:
@@ -2642,7 +2614,7 @@ packages:
     hasBin: true
     dependencies:
       meow: 8.1.2
-      semver: 7.7.4
+      semver: 7.8.5
     dev: true
 
   /git-up@8.1.1:
@@ -2738,12 +2710,6 @@ packages:
   /google-logging-utils@2.0.1:
     resolution: {integrity: sha512-HMhaQghlOTvbcb3c4T5jmmOMtG3JUF1iOQMezaJXL86CDS+Tm2vHd0IeLFRAx3+ewd+bo9E1HFHoy17X5aJa9A==}
     engines: {node: '>=22'}
-    dev: true
-
-  /gopd@1.0.1:
-    resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
-    dependencies:
-      get-intrinsic: 1.2.4
     dev: true
 
   /gopd@1.2.0:
@@ -2845,17 +2811,7 @@ packages:
   /has-property-descriptors@1.0.2:
     resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
     dependencies:
-      es-define-property: 1.0.0
-    dev: true
-
-  /has-proto@1.0.3:
-    resolution: {integrity: sha512-SJ1amZAJUiZS+PhsVLf5tGydlaVB8EdFpaSO4gmiUKUOxk8qzn5AIy4ZeJUmh22znIdk/uMAUT2pl3FxzVUH+Q==}
-    engines: {node: '>= 0.4'}
-    dev: true
-
-  /has-symbols@1.0.3:
-    resolution: {integrity: sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==}
-    engines: {node: '>= 0.4'}
+      es-define-property: 1.0.1
     dev: true
 
   /has-symbols@1.1.0:
@@ -2934,8 +2890,8 @@ packages:
       ms: 2.1.3
     dev: true
 
-  /ignore@7.0.9:
-    resolution: {integrity: sha512-brTTsvFRt5C1gGHtPst/281UjPD5t9fBqbgoMPlVWy11ZLTPfu7HxK4ZYqO9H7o/yC9rSTCI85EaQ4OoY12qYw==}
+  /ignore@7.0.10:
+    resolution: {integrity: sha512-HpbUakT7xp5miBUywCHf36ZEuAJNklBJDDsGpUIjMzOSmM8ELSfA9Sa/QDPeNeqeoN31u+UTCkL4klCOVvRm4Q==}
     engines: {node: '>= 4'}
     dev: true
 
@@ -3100,13 +3056,6 @@ packages:
 
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-    dev: true
-
-  /js-yaml@4.1.0:
-    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
-    hasBin: true
-    dependencies:
-      argparse: 2.0.1
     dev: true
 
   /js-yaml@4.3.2:
@@ -3906,12 +3855,6 @@ packages:
     dev: true
     optional: true
 
-  /nan@2.27.0:
-    resolution: {integrity: sha512-hC+0LidcL3XE4rp1C4H54KujgXKzbfyTngZTwBByQxsOxCEKZT0MPQ4hOKUH2jU1OYstqdDH4onyHPDzcV0XdQ==}
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /nan@2.29.0:
     resolution: {integrity: sha512-GlGk3HIvitbvs+LT3g6XUP1kpirKNvmDFwF/bmo6XNWSb/eYEs/O4bfgIEIXCZ+lIOTS5xNwDvSGMw6FJdAhtA==}
     requiresBuild: true
@@ -4000,7 +3943,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.12.0
-      semver: 7.8.4
+      semver: 7.8.5
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -4302,17 +4245,10 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier@3.8.4:
-    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
+  /prettier@3.9.9:
+    resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
-
-  /prettier@3.9.8:
-    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
 
   /pretty-ms@9.3.1:
     resolution: {integrity: sha512-HzMy3Geq23nVALD/M2LliU+F+M+gVNsvkQWWqeBZ8HDiCgzo6YPJ/Omrmtq24EFrIsk0a3EkQGEd7bDOo+IhGA==}
@@ -4451,7 +4387,7 @@ packages:
     resolution: {integrity: sha512-UkRNRIwnhG+y7hpqnycCL/xbTk7+ia9VuVTC0S+zVbwd65DI9eUpRMfsWIGrCWxTU/mi+JW8cHQCrv+zfCbEPQ==}
     engines: {node: '>=10.13'}
     dependencies:
-      js-yaml: 4.1.0
+      js-yaml: 4.3.2
       strip-bom: 4.0.0
     dev: true
 
@@ -4542,8 +4478,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@44.115.13(typanion@3.12.1):
-    resolution: {integrity: sha512-+u6MDu7RD+5HW46R3+V1DQGmSjtEvyHtOXnV8MDHAmOhIP7rUFdJdARuIXxRDsRgZoctWcKU29A+eArbCSMj8w==}
+  /renovate@44.124.2(typanion@3.12.1):
+    resolution: {integrity: sha512-UIgTKB693qsUV4ePyxxwko5Wq5gc9PotI6Gt6wjPH6brgz+3e4RIwPxTKSZqnaBgXZ/VJaZv7ufYO1ncjBEKvg==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
     dependencies:
@@ -4578,9 +4514,9 @@ packages:
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 6.2.1(@opentelemetry/api@1.9.1)
-      '@renovatebot/detect-tools': 4.0.20
+      '@renovatebot/detect-tools': 4.0.21
       '@renovatebot/good-enough-parser': 2.0.1
-      '@renovatebot/osv-offline': 3.0.11
+      '@renovatebot/osv-offline': 3.0.12
       '@renovatebot/pep440': 5.0.1
       '@renovatebot/pgp': 2.0.2
       '@renovatebot/ruby-semver': 5.0.0
@@ -4613,7 +4549,7 @@ packages:
       execa: 10.0.1
       find-packages: 10.0.4
       find-up: 8.0.0
-      fs-extra: 11.4.0
+      fs-extra: 11.4.1
       git-url-parse: 16.1.0
       github-url-from-git: 1.5.0
       glob: 13.0.6
@@ -4622,7 +4558,7 @@ packages:
       got: 16.0.0
       graph-data-structure: 4.5.0
       handlebars: 4.7.9
-      ignore: 7.0.9
+      ignore: 7.0.10
       ini: 6.0.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 4.0.0
@@ -4644,7 +4580,7 @@ packages:
       p-queue: 9.3.3
       p-throttle: 8.1.1
       parse-link-header: 2.0.0
-      prettier: 3.9.8
+      prettier: 3.9.9
       protobufjs: 8.8.0
       punycode: 2.3.1
       remark: 15.0.1
@@ -4806,12 +4742,6 @@ packages:
 
   /semver@7.7.4:
     resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dev: true
-
-  /semver@7.8.4:
-    resolution: {integrity: sha512-rUCObTnP32Q08R2uuIrt7r9PlEonuTmtuXYcW6s5kjdlj3xbnwe+21yXptAUYcMAABLkYYTtnmzb3w3EDZfueA==}
     engines: {node: '>=10'}
     hasBin: true
     dev: true
@@ -5394,7 +5324,7 @@ packages:
     resolution: {integrity: sha512-LwyucHy0uhWqbrOkh9cBluZBeNVxzHjDaE9mwepZG3n3ZlbM4v3ndrFw51zW/NXYFFqP+QWZ72ihtLWTh05e4Q==}
     engines: {node: '>=10.13'}
     dependencies:
-      js-yaml: 4.1.0
+      js-yaml: 4.3.2
       write-file-atomic: 3.0.3
     dev: true
 
